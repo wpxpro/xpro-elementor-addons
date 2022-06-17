@@ -1,0 +1,47 @@
+.widgetarea_wrapper_edit {
+	display: none;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: #fff;
+	background: #c92a61;
+	padding: 9px 15px;
+	font-size: 11px;
+	line-height: 1;
+	border-bottom-left-radius: 3px;
+	cursor: pointer;
+	z-index: 99999
+}
+
+.widgetarea_wrapper_editable {
+	min-height: 30px;
+	min-width: 100px;
+	position: relative
+}
+
+.widgetarea_iframe_modal {
+	display: none
+}
+
+.widgetarea_iframe_modal .dialog-widget-content {
+	position: static !important;
+	margin-top: 10px
+}
+
+.elementor-editor-active .widgetarea_wrapper_editable:hover {
+	outline: 2px solid #c92a61;
+	outline-offset: -1px;
+	z-index: 99;
+}
+
+.elementor-editor-active .widgetarea_wrapper_editable:hover > .widgetarea_wrapper_edit {
+	display: block
+}
+
+.elementor-editor-active .widgetarea_wrapper_editable .widgetarea_wrapper_editable .widgetarea_wrapper_edit {
+	display: none !important
+}
+
+.elementor-editor-active .xpro-slide-anything .widgetarea_wrapper_editable:hover {
+	outline: 1px solid #c92a61;
+}
