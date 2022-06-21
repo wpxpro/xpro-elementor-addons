@@ -201,12 +201,15 @@ If you have purchased the Pro version of Xpro Elementor Addons, you are entitled
 Have a look at our popular plugins & themes for WordPress.
 
 1. [Best Theme Builder for Elementor](https://wordpress.org/plugins/xpro-theme-builder/)
+
 Free Elementor theme builder to design custom site parts (header, footer, singular, archive, 404 page, search page, WooCommerce templates).
 
 2. [Xpro Theme](https://wordpress.org/themes/xpro/)
+
 Free, fast, and lightweight theme to power up your WordPress websites.
 
 3. [Xpro Elementor Addons Pro](https://elementor.wpxpro.com/premium/?utm_source=github-repo&utm_medium=link&utm_campaign=readme)
+
 Pack of 120+ best Elementor widgets, extensions, templates, and more.
 
 Liked our free Elementor widgets? Give us a 5-star rating on [WordPress](https://wordpress.org/plugins/xpro-elementor-addons/#reviews) and help us spread the word! ☺
