@@ -149,3 +149,66 @@ Take your online store experience to the next level with our premium WooCommerce
 7. Woo Cart - Product cart snippet to show added product
 
 ## Elementor Theme Builder Widgets Pro
+
+Can’t get enough of the free [Xpro Elementor Theme Builder?](https://elementor.wpxpro.com/theme-builder/?utm_source=github-repo&utm_medium=link&utm_campaign=readme) Try our Pro version and take your theme customizations to the next level. The premium version of Elementor theme builder has everything included in the FREE version plus additional widgets to create eye-popping WooCommerce online stores, personalized web experience & more.
+
+1. Vertical Menu - Display the navigation list on the dropdown, accordion, and sliding form
+2. Post Meta - To show tags, categories, and formats
+3. Hamburger - Add a beautiful side menu using multiple layouts
+4. Search - Custom search bar to search for posts and pages
+5. Post Comments - Showcase current post comments in an amazing way
+6. Post Navigation - Let users easily navigate between posts with this widget
+
+## Xpro Elementor Extensions Pro
+
+Xpro Extensions - Pro for Elementor are unique features created exclusively for Elementor lovers. Our Pro extensions are meant to extend the core Elementor capabilities and give you an ultimate, fun, and powerful designing experience.
+
+You can add stunning Mouse and Scroll Effects, and enhance the complete aesthetic of your website by adding enticing Parallax Backgrounds. You can add personalization with Display Conditions, and easily move your favorite saved templates from one website to another using our premium Cross-domain Copy Paste extension.
+
+Everything in the Free version plus:
+1. Scroll Effect - Add interactive animations to elements on the mouse scroll
+2. Mouse Effect - Add tilt animation to elements whenever the mouse moves over items
+3. Background Parallax - Add parallax effect to background images
+4. Cross-domain Copy/Paste - Copy data from one site to another within 2 simple clicks
+5. Display Conditions - Set display rules for your custom layouts
+
+Become a part of our thriving clientele and kickstart your journey to become a successful agency, freelancer, or individual designer.
+
+Try our [Premium addons for Elementor](https://elementor.wpxpro.com/buy/?utm_source=github-repo&utm_medium=link&utm_campaign=readme) - we have a 14 days moneyback guarantee. Simply ask for a refund if you don’t like our addons. Or else, try our free version and explore the complete creative web design experience.
+
+## How to Install Xpro Elementor Addons
+
+1. Install and activate the [Elementor page builder](https://wordpress.org/plugins/elementor/).
+2. Install Xpro Elementor Addons and activate or [download](https://downloads.wordpress.org/plugin/xpro-elementor-addons.zip) the plugin from WordPress Directory and install.
+3. You're good to go, that's all!
+4. Now simply visit the Xpro Addons Dashboard from the side panel and customize the settings as you want.
+5. Check our detailed [installation guide](https://elementor.wpxpro.com/docs/xpro-elementor-addons/getting-started/installation/) for a better understanding of the installation process.
+
+## Documentation and Support
+
+Xpro Elementor Addons is a user-driven project that lives and breathes on your feedback. Feel free to contact our support team in case you face any issues or want to suggest a feature. We will be more than happy to hear you out.
+
+Please use the right platform to get your queries answered quickly through one of the proper support channels:
+- For documentation and tutorials, visit our [Documentation](https://elementor.wpxpro.com/docs/?utm_source=github-repo&utm_medium=link&utm_campaign=readme) page.
+- If you have any questions, submit them through our [contact form](https://elementor.wpxpro.com/contact-us/?utm_source=github-repo&utm_medium=link&utm_campaign=readme).
+- For more information about features, premium widgets, Elementor page templates, and FAQs, visit our website at [Xpro Elementor Addons](https://elementor.wpxpro.com/?utm_source=github-repo&utm_medium=link&utm_campaign=readme).
+- Join [Xpro Elementor Community](https://www.facebook.com/groups/540793210978965) on Facebook
+
+If you have purchased the Pro version of Xpro Elementor Addons, you are entitled to instant support, please log in to your [Xpro Dashboard](https://www.wpxpro.com/dashboard/?utm_source=github-repo&utm_medium=link&utm_campaign=readme) to submit a priority support ticket.
+
+## Liked Xpro Elementor Addons?
+
+Have a look at our popular plugins & themes for WordPress.
+
+1. [Best Theme Builder for Elementor](https://wordpress.org/plugins/xpro-theme-builder/)
+Free Elementor theme builder to design custom site parts (header, footer, singular, archive, 404 page, search page, WooCommerce templates).
+
+2. [Xpro Theme](https://wordpress.org/themes/xpro/)
+Free, fast, and lightweight theme to power up your WordPress websites.
+
+3. [Xpro Elementor Addons Pro](https://elementor.wpxpro.com/premium/?utm_source=github-repo&utm_medium=link&utm_campaign=readme)
+Pack of 120+ best Elementor widgets, extensions, templates, and more.
+
+Liked our free Elementor widgets? Give us a 5-star rating on [WordPress](https://wordpress.org/plugins/xpro-elementor-addons/#reviews) and help us spread the word! ☺
+
+[Visit our website](https://elementor.wpxpro.com/?utm_source=github-repo&utm_medium=link&utm_campaign=readme) to know more about our products and how you can use them to create amazing WordPress websites.
