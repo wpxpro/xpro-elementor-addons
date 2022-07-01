@@ -479,6 +479,13 @@ class Xpro_Elementor_Addons {
 			'3.0.8',
 			true
 		);
+		wp_register_script(
+			'asRange',
+			XPRO_ELEMENTOR_ADDONS_ASSETS . 'vendor/js/jquery-asRange.min.js',
+			array( 'jquery' ),
+			'0.3.4',
+			true
+		);
 
 		$user_settings = Xpro_Elementor_Dashboard_Utils::instance()->get_option( 'xpro_elementor_user_data', array() );
 

@@ -613,11 +613,6 @@ class Xpro_Elementor_Widget_List {
 			'title'   => 'Woo My Account',
 			'package' => 'pro-disabled',
 		),
-		'woo-product-filters'     => array(
-			'slug'    => 'woo_product_filters',
-			'title'   => 'Woo Products Filter',
-			'package' => 'pro-disabled',
-		),
 		'woo-checkout'            => array(
 			'slug'    => 'woo_checkout',
 			'title'   => 'Woo Checkout',

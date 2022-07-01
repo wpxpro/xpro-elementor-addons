@@ -231,6 +231,22 @@ class Testimonial extends Widget_Base {
 			)
 		);
 
+		$this->add_control(
+			'quote_icon',
+			array(
+				'label'     => esc_html__( 'Icons', 'xpro-elementor-addons-pro' ),
+				'type'      => \Elementor\Controls_Manager::ICONS,
+				'default'   => array(
+					'value'   => 'fas fa-quote-left',
+					'library' => 'solid',
+				),
+				'condition' => array(
+					'show_quote' => 'yes',
+					'layout!'    => array( '6', '9', '10' ),
+				),
+			)
+		);
+
 		$this->add_responsive_control(
 			'align',
 			array(
@@ -882,7 +898,8 @@ class Testimonial extends Widget_Base {
 				'label'     => __( 'Color', 'xpro-elementor-addons' ),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => array(
-					'{{WRAPPER}} .xpro-testimonial-quote' => 'color: {{VALUE}}',
+					'{{WRAPPER}} .xpro-testimonial-quote > i' => 'color: {{VALUE}}',
+					'{{WRAPPER}} .xpro-testimonial-quote > svg' => 'fill: {{VALUE}}',
 				),
 			)
 		);
@@ -894,7 +911,8 @@ class Testimonial extends Widget_Base {
 				'type'       => Controls_Manager::SLIDER,
 				'size_units' => array( 'px' ),
 				'selectors'  => array(
-					'{{WRAPPER}} .xpro-testimonial-quote' => 'font-size: {{SIZE}}{{UNIT}};',
+					'{{WRAPPER}} .xpro-testimonial-quote > i' => 'font-size: {{SIZE}}{{UNIT}};',
+					'{{WRAPPER}} .xpro-testimonial-quote > svg' => 'width: {{SIZE}}{{UNIT}};',
 				),
 				'condition'  => array(
 					'layout!' => array( '6', '9', '10' ),

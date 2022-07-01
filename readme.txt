@@ -1,6 +1,6 @@
 === Xpro Addons For Elementor (120+ Widgets & Free Theme Builder) ===
 Plugin Name: Xpro Addons For Elementor (120+ Widgets & Free Theme Builder)
-Version: 1.0.5
+Version: 1.0.6
 Contributors: Xpro
 Tags: elementor, elements, modules, widgets for elementor, elementor addons, elementor widgets, elementor theme builder, addons for elementor, woocommerce elementor
 Requires at least: 5.0
@@ -301,6 +301,17 @@ Xpro Elementor Addons is a cleanly coded plugin that won’t affect the speed of
 8. Advanced Gallery
 
 == Changelog ==
+
+= V 1.0.6 - 01 July 2022 =
+
+- Tweak: Update Portfolio Preview Scrollbar
+- New: Add Wrapper Styling Option in 360 Widget
+- New: Add Custom Icon Option in Testimonial Widget
+- New: Add Custom Icon Option in Block Quote Widget
+- New: Add Custom Icon Option in Testimonial Carousel Widget
+- Fix: Flip Box Svg Color Not Change
+- Fix: Product Grid Quick View Swatches
+- Fix: Product Content Not Show Correctly
 
 = V 1.0.5 - 15 June 2022 =
 

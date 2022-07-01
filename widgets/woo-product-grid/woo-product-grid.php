@@ -122,7 +122,7 @@ class Woo_Product_Grid extends Widget_Base {
 	 *
 	 */
 	public function get_script_depends() {
-		return array( 'cubeportfolio' );
+		return array( 'cubeportfolio', 'wc-add-to-cart-variation' );
 	}
 
 	/**
@@ -685,7 +685,7 @@ class Woo_Product_Grid extends Widget_Base {
 				'label'     => __( 'Prev Label', 'xpro-elementor-addons' ),
 				'type'      => Controls_Manager::TEXT,
 				'default'   => __( 'Prev', 'xpro-elementor-addons' ),
-				'dynamic'     => array(
+				'dynamic'   => array(
 					'active' => true,
 				),
 				'condition' => array(
@@ -700,7 +700,7 @@ class Woo_Product_Grid extends Widget_Base {
 				'label'     => __( 'Next Label', 'xpro-elementor-addons' ),
 				'type'      => Controls_Manager::TEXT,
 				'default'   => __( 'Next', 'xpro-elementor-addons' ),
-				'dynamic'     => array(
+				'dynamic'   => array(
 					'active' => true,
 				),
 				'condition' => array(
@@ -3611,14 +3611,6 @@ class Woo_Product_Grid extends Widget_Base {
 
 		$settings = $this->get_settings();
 
-		if ( 'source_dynamic' === $settings['post_type'] && 'xpro-themer' === get_post_type() ) { ?>
-			<p class="xpro-alert xpro-alert-info">
-				<span class="xpro-alert-description"><?php xpro_elementor_kses( 'This option will only affect in <strong>Theme Builder Template</strong> dynamically.' ); ?></span>
-			</p>
-			<?php
-			return;
-		}
-
 		global $product;
 
 		$get_all_product = array(
@@ -3650,8 +3642,14 @@ class Woo_Product_Grid extends Widget_Base {
 		<div class="xpro-product-grid-wrapper xpro-woo-product-grid-layout-<?php echo esc_attr( $settings['layout'] ); ?>">
 
 			<?php
-			$args        = xpro_elementor_get_query_args( $settings );
-			$args        = xpro_elementor_get_dynamic_args( $settings, $args );
+			$args = xpro_elementor_get_query_args( $settings );
+			$args = xpro_elementor_get_dynamic_args( $settings, $args );
+
+			if ( Plugin::$instance->editor->is_edit_mode() && 'source_dynamic' === $settings['post_type'] && 'xpro-themer' === get_post_type() ) {
+				$args['post_type']      = 'product';
+				$args['posts_per_page'] = get_option( 'posts_per_page' );
+			}
+
 			$found_posts = 0;
 			$paged       = 1;
 

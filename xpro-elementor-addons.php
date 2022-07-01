@@ -3,7 +3,7 @@
  * Plugin Name: Xpro Elementor Addons
  * Description: A complete Elementor Addons Pack to enhance your web designing experience. Create amazing websites with 50+ FREE Widgets, Extensions & more.
  * Plugin URI:  https://elementor.wpxpro.com/
- * Version:     1.0.5
+ * Version:     1.0.6
  * Author:      Xpro
  * Author URI:  https://www.wpxpro.com/
  * Developer:  Farman Akram
@@ -14,7 +14,7 @@
 
 defined( 'ABSPATH' ) || die();
 
-define( 'XPRO_ELEMENTOR_ADDONS_VERSION', '1.0.5' );
+define( 'XPRO_ELEMENTOR_ADDONS_VERSION', '1.0.6' );
 define( 'XPRO_ELEMENTOR_ADDONS__FILE__', __FILE__ );
 define( 'XPRO_ELEMENTOR_ADDONS_BASE', plugin_basename( __FILE__ ) );
 define( 'XPRO_ELEMENTOR_ADDONS_DIR_PATH', plugin_dir_path( XPRO_ELEMENTOR_ADDONS__FILE__ ) );
@@ -57,7 +57,7 @@ final class Xpro_Elementor_Addons {
 	 * @since 1.0.0
 	 * @var string The plugin version.
 	 */
-	const VERSION = '1.0.5';
+	const VERSION = '1.0.6';
 
 	/**
 	 * Minimum Elementor Version

@@ -136,6 +136,21 @@ class Block_Quote extends Widget_Base {
 		);
 
 		$this->add_control(
+			'quote_icon',
+			array(
+				'label'     => esc_html__( 'Icons', 'xpro-elementor-addons-pro' ),
+				'type'      => \Elementor\Controls_Manager::ICONS,
+				'default'   => array(
+					'value'   => 'fas fa-quote-left',
+					'library' => 'solid',
+				),
+				'condition' => array(
+					'quote_position!' => array( 'layout-3', 'layout-6' ),
+				),
+			)
+		);
+
+		$this->add_control(
 			'image',
 			array(
 				'label'     => __( 'Image', 'xpro-elementor-addons' ),
@@ -435,15 +450,8 @@ class Block_Quote extends Widget_Base {
 					),
 				),
 				'selectors'  => array(
-					'{{WRAPPER}} .xpro-block-quote-layout-1 .xpro-block-quote-icon > svg,
-					{{WRAPPER}} .xpro-block-quote-layout-2 .xpro-block-quote-icon > svg,
-					{{WRAPPER}} .xpro-block-quote-layout-4 .xpro-block-quote-icon > svg,
-					{{WRAPPER}} .xpro-block-quote-layout-5 .xpro-block-quote-icon > svg,
-					{{WRAPPER}} .xpro-block-quote-layout-6 .xpro-block-quote-icon > svg,
-					{{WRAPPER}} .xpro-block-quote-layout-7 .xpro-block-quote-icon > svg,
-					{{WRAPPER}} .xpro-block-quote-layout-8 .xpro-block-quote-icon > svg,
-					{{WRAPPER}} .xpro-block-quote-layout-9 .xpro-block-quote-icon > svg,
-					{{WRAPPER}} .xpro-block-quote-layout-10 .xpro-block-quote-icon > svg' => 'width: {{SIZE}}{{UNIT}}; height: auto;',
+					'{{WRAPPER}} .xpro-block-quote-icon > i' => 'font-size: {{SIZE}}{{UNIT}};',
+					'{{WRAPPER}} .xpro-block-quote-icon > svg' => 'width: {{SIZE}}{{UNIT}}; height: auto;',
 				),
 			)
 		);
@@ -461,15 +469,7 @@ class Block_Quote extends Widget_Base {
 					),
 				),
 				'selectors'  => array(
-					'{{WRAPPER}} .xpro-block-quote-layout-1 .xpro-block-quote-icon,
-					{{WRAPPER}} .xpro-block-quote-layout-2 .xpro-block-quote-icon,
-					{{WRAPPER}} .xpro-block-quote-layout-4 .xpro-block-quote-icon,
-					{{WRAPPER}} .xpro-block-quote-layout-5 .xpro-block-quote-icon,
-					{{WRAPPER}} .xpro-block-quote-layout-6 .xpro-block-quote-icon,
-					{{WRAPPER}} .xpro-block-quote-layout-7 .xpro-block-quote-icon,
-					{{WRAPPER}} .xpro-block-quote-layout-8 .xpro-block-quote-icon,
-					{{WRAPPER}} .xpro-block-quote-layout-9 .xpro-block-quote-icon,
-					{{WRAPPER}} .xpro-block-quote-layout-10 .xpro-block-quote-icon' => 'min-width: {{SIZE}}{{UNIT}}; height: {{SIZE}}{{UNIT}};',
+					'{{WRAPPER}} .xpro-block-quote-icon' => 'min-width: {{SIZE}}{{UNIT}}; height: {{SIZE}}{{UNIT}};',
 				),
 			)
 		);
@@ -480,6 +480,7 @@ class Block_Quote extends Widget_Base {
 				'label'     => __( 'Color', 'xpro-elementor-addons' ),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => array(
+					'{{WRAPPER}} .xpro-block-quote-icon > i' => 'color: {{VALUE}};',
 					'{{WRAPPER}} .xpro-block-quote-icon > svg' => 'fill: {{VALUE}};',
 				),
 			)

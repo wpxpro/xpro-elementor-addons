@@ -1,5 +1,5 @@
 <?php
-$title_tag   = ( $settings['name_link']['url'] ) ? 'a' : 'h2';
+$title_tag   = ( $settings['name_link']['url'] ) ? 'a' : 'h3';
 $title_attr  = $settings['name_link']['is_external'] ? ' target="_blank"' : '';
 $title_attr .= $settings['name_link']['nofollow'] ? ' rel="nofollow"' : '';
 $title_attr .= $settings['name_link']['url'] ? ' href="' . $settings['name_link']['url'] . '"' : '';
@@ -16,9 +16,9 @@ $title_attr .= $settings['name_link']['url'] ? ' href="' . $settings['name_link'
 <?php echo ( '4' === $settings['layout'] || '5' === $settings['layout'] || '6' === $settings['layout'] ) ? '<div class="xpro-testimonial-inner-wrapper">' : ''; ?>
 <div class="xpro-testimonial-content">
 
-	<?php if ( 'yes' === $settings['show_quote'] && '6' !== $settings['layout'] && '9' !== $settings['layout'] && '10' !== $settings['layout'] ) : ?>
+	<?php if ( 'yes' === $settings['show_quote'] && $settings['quote_icon']['value'] && '6' !== $settings['layout'] && '9' !== $settings['layout'] && '10' !== $settings['layout'] ) : ?>
 		<span class="xpro-testimonial-quote">
-			<i class="fas fa-quote-left" aria-hidden="true"></i>
+			<?php \Elementor\Icons_Manager::render_icon( $settings['quote_icon'], array( 'aria-hidden' => 'true' ) ); ?>
 		</span>
 	<?php endif; ?>
 
